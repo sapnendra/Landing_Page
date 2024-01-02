@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html, body{
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero_section {
+    background-image: url(dev_background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    /* margin: auto; */
+    margin-left: 300px;
+}
+
+.lg_text{
+    font-size: 72px;
+}
+
+.second_text{
+    display: flex;
+    width: 1381px;
+    height: 220px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.lg_text2{
+    font-size: 90px;
+}
+
+.card_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 580px;
+    width: 1381px;
+    background-color: rgb(242, 242, 242);
+}
+
+.box{
+    height: 418px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(192, 192, 192);
+    background-color: rgb(237, 237, 237);
+}
+
+.box img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box h2{
+    font-size: 1.7rem;
+    padding: 10px 5px 10px 30px;
+}
+.box p{
+    padding: 5px 5px 0px 30px;
+}
+
+.bg_container{
+    width: 1381px;
+    height: 418px;
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: rgb(44, 89, 44);
+    height: 418px;
+    padding: 100px;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.box2{
+    background-color: rgb(147, 21, 21);
+    height: 418px;
+    width: 2360px;
+    padding: 80px;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.box1 h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.box2 h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+footer p{
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(173, 173, 173);
+    font-weight: 400;
+}
