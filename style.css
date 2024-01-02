@@ -13,7 +13,7 @@ html, body{
 }
 
 .hero_section {
-    background-image: url(dev_background.jpg);
+    background-image: url(assets/images/dev_background.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
